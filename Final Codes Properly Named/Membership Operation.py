@@ -1,0 +1,23 @@
+print(4 in (2, 4, 5, 6))
+print(5 not in (2, 5, 6, 7))
+
+# Tuple Function
+# len()
+a = (5, 'book', 4, 5, 'ney')
+print(len(a))
+# count()
+print(a.count(5))
+#any()
+b = ()
+print(any(b))
+print(any(a))
+# min & Max
+t = (10, 54, 30)
+print(max(t), min(t))
+b = ('Apple')
+print(max(b))
+b = ('Apple', 'papple', 'lapple')
+print(max(b), min(b))
+# Sum()
+t1 = (10, 54, 30)
+print(sum(t1))
